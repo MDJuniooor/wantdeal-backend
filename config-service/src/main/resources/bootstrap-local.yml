@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file://${user.home}/server-configs
+#              searchLocations: classpath:config/,classpath:config/licensingservice

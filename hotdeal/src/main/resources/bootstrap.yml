@@ -1,0 +1,14 @@
+# contents-service bootstrap.yml
+server:
+  port: 8081
+spring:
+  profiles:
+    active: local
+  application:
+    name: hotdeal
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, refresh
