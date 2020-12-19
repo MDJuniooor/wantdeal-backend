@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/auth-service" />
     <file type="web" url="file://$PROJECT_DIR$/config-service" />
     <file type="web" url="file://$PROJECT_DIR$/eureka" />
     <file type="web" url="file://$PROJECT_DIR$/gateway" />
     <file type="web" url="file://$PROJECT_DIR$/hotdeal" />
+    <file type="web" url="file://$PROJECT_DIR$/oauth2-resource-server" />
     <file type="web" url="file://$PROJECT_DIR$/user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/zipkin" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />

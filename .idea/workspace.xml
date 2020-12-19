@@ -19,29 +19,57 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a3a8ba-cc9d-467b-94d0-afa49d88a414" name="Default Changelist" comment="Setting Gateway &amp; Create Eureka">
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/bootstrap-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotdeal/src/main/resources/bootstrap-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
+    <list default="true" id="60a3a8ba-cc9d-467b-94d0-afa49d88a414" name="Default Changelist" comment="Refactoring Pathing Config Using Eureka">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/AuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/config/OAuth2AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/contant/ClientType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/contant/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/entity/ClientDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/entity/ResourceOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/repository/ResourceOwnerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/security/CustomAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/security/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/security/ResourceOwnerAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/service/ClientDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/utils/Crypto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/wantdeal/authservice/utils/ShaPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/static/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/templates/client/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/templates/client/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/test/java/com/wantdeal/authservice/AuthServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/hotdeal/gateway/security/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotdeal/src/main/java/com/wantdeal/hotdeal/client/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotdeal/src/main/java/com/wantdeal/hotdeal/service/UserClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/java/com/wantdeal/configservice/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/java/com/wantdeal/configservice/ConfigServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/hotdeal/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/hotdeal/eureka/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/hotdeal/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/hotdeal/gateway/GatewayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap-local.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotdeal/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hotdeal/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotdeal/src/main/java/com/wantdeal/hotdeal/HotdealApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotdeal/src/main/java/com/wantdeal/hotdeal/HotdealApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotdeal/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hotdeal/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotdeal/src/main/java/com/wantdeal/hotdeal/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotdeal/src/main/java/com/wantdeal/hotdeal/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/wantdeal/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/wantdeal/userservice/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/test-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/com/wantdeal/userservice/TestConfigTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +77,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/auth-service">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/config-service">
       <ProjectState />
     </projectState>
@@ -61,10 +92,16 @@
     <projectState path="$PROJECT_DIR$/hotdeal">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/oauth2-resource-server">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/test">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/user-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/zipkin">
       <ProjectState />
     </projectState>
   </component>
@@ -79,38 +116,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="config-service" type="f1a62948:ProjectNode" />
+                <item name="hotdeal" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="config-service" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="config-service" type="f1a62948:ProjectNode" />
+                <item name="hotdeal" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="config-service" type="f1a62948:ProjectNode" />
+                <item name="hotdeal" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
                 <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="config-service" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-                <item name="org.springframework.cloud:spring-cloud-config-server:2.2.4.RELEASE" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="config-service" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-                <item name="org.springframework.cloud:spring-cloud-config-server:2.2.4.RELEASE" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
-                <item name="org.springframework.cloud:spring-cloud-config-client:2.2.4.RELEASE" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -124,6 +141,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -141,12 +159,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -162,15 +182,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.wantdeal.userservice" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config-service/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hotdeal/src/main/resources" />
+      <recent name="$PROJECT_DIR$/user-service/src/main/resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/hotdeal/src/main/resources" />
-      <recent name="$PROJECT_DIR$/user-service/src/main/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config-service/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,7 +200,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Multirun.Multirun">
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication (1)">
     <configuration name="TestConfigTest.name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,6 +226,19 @@
       <runConfiguration name="UserServiceApplication" type="Spring Boot" />
       <runConfiguration name="GatewayApplication" type="Spring Boot" />
       <method v="2" />
+    </configuration>
+    <configuration name="AuthServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="auth-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wantdeal.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wantdeal.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-service.main" />
@@ -256,6 +289,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wantdeal.zipkin.ZipkinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Gradle.TestConfigTest.name" />
       <item itemvalue="Multirun.Multirun" />
@@ -264,10 +304,13 @@
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.AuthServiceApplication (1)" />
+      <item itemvalue="Spring Boot.ZipkinApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.UserServiceApplication" />
+        <item itemvalue="Spring Boot.AuthServiceApplication (1)" />
         <item itemvalue="Spring Boot.ConfigServiceApplication" />
         <item itemvalue="Gradle.TestConfigTest.name" />
       </list>
@@ -296,7 +339,8 @@
       <workItem from="1608276162987" duration="1298000" />
       <workItem from="1608277830699" duration="11446000" />
       <workItem from="1608345505937" duration="1705000" />
-      <workItem from="1608347294531" duration="1965000" />
+      <workItem from="1608347294531" duration="2206000" />
+      <workItem from="1608351645780" duration="11979000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Config Server Setting">
       <created>1608296421191</created>
@@ -312,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608346984227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactoring Pathing Config Using Eureka">
+      <created>1608349555748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608349555748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,25 +385,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Config Server Setting" />
     <MESSAGE value="Setting Gateway &amp; Create Eureka" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting Gateway &amp; Create Eureka" />
+    <MESSAGE value="Refactoring Pathing Config Using Eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Pathing Config Using Eureka" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="111" key="#Auto_Import" timestamp="1608346361076">
+    <state x="653" y="111" key="#Auto_Import" timestamp="1608387448263">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="653" y="111" key="#Auto_Import/0.0.1792.1120@0.0.1792.1120" timestamp="1608346361076" />
-    <state x="383" y="141" key="#Project_Structure" timestamp="1608348391722">
+    <state x="653" y="111" key="#Auto_Import/0.0.1792.1120@0.0.1792.1120" timestamp="1608387448263" />
+    <state x="530" y="245" key="#Inspections" timestamp="1608357802896">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="383" y="141" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1608348391722" />
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608345551823">
+    <state x="530" y="245" key="#Inspections/0.0.1792.1120@0.0.1792.1120" timestamp="1608357802896" />
+    <state x="383" y="141" key="#Project_Structure" timestamp="1608388925562">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1608345551823" />
+    <state x="383" y="141" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1608388925562" />
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608389330989">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1608389330989" />
     <state x="512" y="256" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1608272566428">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="512" y="256" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1608272566428" />
+    <state x="616" y="248" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608394392054">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="616" y="248" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1608394392054" />
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608296153128">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -361,46 +421,46 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="595" y="444" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1792.1120@0.0.1792.1120" timestamp="1608272945747" />
-    <state width="1204" height="318" key="GridCell.Tab.0.bottom" timestamp="1608349427674">
+    <state width="1204" height="318" key="GridCell.Tab.0.bottom" timestamp="1608394450679">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1204" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608349427674" />
-    <state width="1204" height="318" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1608349293205" />
-    <state width="1204" height="318" key="GridCell.Tab.0.center" timestamp="1608349427673">
+    <state width="1204" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608394450679" />
+    <state width="1204" height="318" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1608383035680" />
+    <state width="1204" height="318" key="GridCell.Tab.0.center" timestamp="1608394450678">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1204" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608349427673" />
-    <state width="1204" height="318" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1608349293204" />
-    <state width="1204" height="318" key="GridCell.Tab.0.left" timestamp="1608349427672">
+    <state width="1204" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608394450678" />
+    <state width="1204" height="318" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1608383035679" />
+    <state width="1204" height="318" key="GridCell.Tab.0.left" timestamp="1608394450677">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1204" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608349427672" />
-    <state width="1204" height="318" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1608349293203" />
-    <state width="1204" height="318" key="GridCell.Tab.0.right" timestamp="1608349427673">
+    <state width="1204" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608394450677" />
+    <state width="1204" height="318" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1608383035679" />
+    <state width="1204" height="318" key="GridCell.Tab.0.right" timestamp="1608394450678">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1204" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608349427673" />
-    <state width="1204" height="318" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1608349293204" />
-    <state width="1204" height="318" key="GridCell.Tab.1.bottom" timestamp="1608349427676">
+    <state width="1204" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608394450678" />
+    <state width="1204" height="318" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1608383035680" />
+    <state width="1204" height="318" key="GridCell.Tab.1.bottom" timestamp="1608394450680">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1204" height="318" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608349427676" />
-    <state width="1204" height="318" key="GridCell.Tab.1.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1608349293206" />
-    <state width="1204" height="318" key="GridCell.Tab.1.center" timestamp="1608349427675">
+    <state width="1204" height="318" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608394450680" />
+    <state width="1204" height="318" key="GridCell.Tab.1.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1608383035682" />
+    <state width="1204" height="318" key="GridCell.Tab.1.center" timestamp="1608394450679">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1204" height="318" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608349427675" />
-    <state width="1204" height="318" key="GridCell.Tab.1.center/38.23.1754.1097@38.23.1754.1097" timestamp="1608349293206" />
-    <state width="1204" height="318" key="GridCell.Tab.1.left" timestamp="1608349427674">
+    <state width="1204" height="318" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608394450679" />
+    <state width="1204" height="318" key="GridCell.Tab.1.center/38.23.1754.1097@38.23.1754.1097" timestamp="1608383035681" />
+    <state width="1204" height="318" key="GridCell.Tab.1.left" timestamp="1608394450679">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1204" height="318" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608349427674" />
-    <state width="1204" height="318" key="GridCell.Tab.1.left/38.23.1754.1097@38.23.1754.1097" timestamp="1608349293205" />
-    <state width="1204" height="318" key="GridCell.Tab.1.right" timestamp="1608349427675">
+    <state width="1204" height="318" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608394450679" />
+    <state width="1204" height="318" key="GridCell.Tab.1.left/38.23.1754.1097@38.23.1754.1097" timestamp="1608383035681" />
+    <state width="1204" height="318" key="GridCell.Tab.1.right" timestamp="1608394450680">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1204" height="318" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608349427675" />
-    <state width="1204" height="318" key="GridCell.Tab.1.right/38.23.1754.1097@38.23.1754.1097" timestamp="1608349293206" />
+    <state width="1204" height="318" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608394450680" />
+    <state width="1204" height="318" key="GridCell.Tab.1.right/38.23.1754.1097@38.23.1754.1097" timestamp="1608383035681" />
     <state width="1204" height="318" key="GridCell.Tab.2.bottom" timestamp="1608345484224">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -421,10 +481,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1608295396519" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1608346986680">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1608349559420">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1608346986680" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1608349559420" />
     <state x="660" y="396" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608295622680">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -433,13 +493,13 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="718" y="461" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1608296363299" />
-    <state x="264" y="122" width="1291" height="875" key="new project wizard" timestamp="1608346915460">
+    <state x="264" y="122" width="1291" height="875" key="new project wizard" timestamp="1608391686766">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="264" y="122" width="1291" height="875" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1608346915460" />
-    <state x="561" y="265" key="run.anything.popup" timestamp="1608345694707">
+    <state x="264" y="122" width="1291" height="875" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1608391686766" />
+    <state x="479" y="210" key="run.anything.popup" timestamp="1608393249066">
       <screen x="38" y="23" width="1754" height="1097" />
     </state>
-    <state x="561" y="265" key="run.anything.popup/38.23.1754.1097@38.23.1754.1097" timestamp="1608345694707" />
+    <state x="479" y="210" key="run.anything.popup/38.23.1754.1097@38.23.1754.1097" timestamp="1608393249066" />
   </component>
 </project>
