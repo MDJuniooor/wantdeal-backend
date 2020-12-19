@@ -1,19 +1,14 @@
-# member-service bootstrap.yml
+# user-service bootstrap.yml
 server:
   port: 8080
-
 spring:
   profiles:
     active: local
   application:
     name: user-service
-  cloud:
-    config:
-      uri: http://localhost:8888
 
 management:
   endpoints:
     web:
       exposure:
         include: info, refresh
-

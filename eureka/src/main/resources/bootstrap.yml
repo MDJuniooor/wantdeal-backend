@@ -1,0 +1,25 @@
+# Config 서버에서 config를 가지고 오면 상호 디펜던시가 생겨서 내부적으로 config 관리
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka
+  profiles:
+    active: local
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  serviceUrl:
+    defaultZone: http://localhost:8761
+
+#Setting logging levels
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.thoughtmechanix: DEBUG

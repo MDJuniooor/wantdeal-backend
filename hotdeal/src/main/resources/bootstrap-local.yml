@@ -1,10 +1,10 @@
-# bootstrap-local.yml
+# hotdeal bootstrap-local.yml
 spring:
   profiles: local
   cloud:
     config:
-      #uri: http://localhost:8888
+      #      uri: http://localhost:8888
       fail-fast: true
       discovery:
-        service-id: config-service
+        service-id: configserver
         enabled: true
